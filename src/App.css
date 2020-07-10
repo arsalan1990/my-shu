@@ -1,0 +1,120 @@
+.background{
+  display: flex;
+  }
+
+.strip{
+  background: rgb(236, 182, 182);
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  max-width: 82rem;
+} 
+
+.homeheader{
+  min-height: 5vh;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  word-spacing: 15px;
+  margin-left: 6rem;
+
+}
+
+.forms{
+  
+  margin-left: 200 rem;
+  border: black;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 6px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.column {
+  float: left;
+  width: 30.33%;
+  padding: -5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.rowC{
+  display: flex;
+  padding: 5px;
+}
+
+.App {
+  text-align: center;
+}
+
+.button:hover {
+  background-color: yellow;
+  border: black;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 6px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.header {
+  background-color: rgba(255, 0, 0, 0.61);
+  min-height: 5vh;
+  text-align: center;
+  font-size: calc(10px + 2vmin)
+}
+
+.name {
+  min-height: 5vh;
+  text-align: center;
+  font-size: calc(10px + 4vmin)
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
